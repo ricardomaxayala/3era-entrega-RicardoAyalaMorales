@@ -1,0 +1,11 @@
+
+.aplicar{
+    color: $negro;
+    background-color: $naranja;
+    font-weight: negrita;
+    border-radius: $tamanio-ideal/2;
+    &:hover{
+        background-color: $morado;
+        color: $oro;
+    }
+}

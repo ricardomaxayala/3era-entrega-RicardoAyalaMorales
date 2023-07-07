@@ -1,0 +1,6 @@
+.ubicacion{
+    display: flex;
+    flex-direction: map-get($d-flex, direccion );
+    justify-content: map-get($d-flex , justificado );
+    align-items: map-get($d-flex, alineacion);
+}

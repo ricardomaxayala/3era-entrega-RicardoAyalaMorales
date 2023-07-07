@@ -1,0 +1,49 @@
+
+
+nav{
+    .navbar-brand{
+        img{
+            height: $tamanio-img-header;
+            width: $auto;
+            object-fit: $object-fit;
+        }
+    }
+    .nav-item{
+        margin: $tamanio-ideal/5 0;
+        &:hover{
+            background-color: $rosado;
+        }
+
+        @media (min-width: 992px) { 
+            &:hover {
+                background-color: $transparente;
+            }       
+        }
+    }
+    .nav-link{
+        color: $negro;
+        font-size: $tamanio-ideal;
+        font-weight: $negrita;
+        margin-left: $tamanio-ideal;
+        &:hover{
+            color: $blanco;
+        }
+        &.active{
+            color: $verde;
+        }
+        @media (min-width: 992px) { 
+            
+                margin-left: 0;
+                 
+        }
+    }
+    .dropdown-item{
+        color: $negro;
+        &:hover{
+            background-color: $celeste; 
+            color: $verde;
+            font-weight: $negrita;
+        }
+    }
+    
+}

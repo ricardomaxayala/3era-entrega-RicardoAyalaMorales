@@ -1,0 +1,90 @@
+nav .navbar-brand img {
+  height: 3rem;
+  width: auto;
+  object-fit: cover;
+}
+nav .nav-item {
+  margin: 0.2rem 0;
+}
+nav .nav-item:hover {
+  background-color: lightcoral;
+}
+@media (min-width: 992px) {
+  nav .nav-item:hover {
+    background-color: transparent;
+  }
+}
+nav .nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+nav .nav-link:hover {
+  color: white;
+}
+nav .nav-link.active {
+  color: green;
+}
+@media (min-width: 992px) {
+  nav .nav-link {
+    margin-left: 0;
+  }
+}
+nav .dropdown-item {
+  color: black;
+}
+nav .dropdown-item:hover {
+  background-color: lightsteelblue;
+  color: green;
+  font-weight: bold;
+}
+
+.aplicar {
+  color: black;
+  background-color: orange;
+  font-weight: negrita;
+  border-radius: 0.5rem;
+}
+.aplicar:hover {
+  background-color: darkorchid;
+  color: gold;
+}
+
+.img-iniciarsesion {
+  background-image: url(../img/inicia.jpg);
+  background-position: center center;
+  object-fit: cover;
+}
+
+.img-registrarse {
+  background-image: url(../img/inicia.jpg);
+  background-position: center center;
+  object-fit: cover;
+}
+
+.ubicacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 1rem;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.carta:hover {
+  transform: scale(1.1);
+  transition: all ease-in 0.5s;
+}
+
+.icon {
+  transition: all 0.3s ease-out;
+}
+
+/*# sourceMappingURL=style.css.map */

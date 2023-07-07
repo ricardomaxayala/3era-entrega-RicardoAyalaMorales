@@ -1,0 +1,10 @@
+i{
+    font-size: $tamanio-ideal;
+}
+
+.icon{
+    @extend %icon;
+    &:hover{
+        color: $blanco;
+    }
+}

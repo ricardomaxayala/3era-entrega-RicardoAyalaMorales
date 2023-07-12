@@ -1,6 +1,7 @@
 
 
 nav{
+
     .navbar-brand{
         img{
             height: $tamanio-img-header;
@@ -9,9 +10,9 @@ nav{
         }
     }
     .nav-item{
-        margin: $tamanio-ideal/5 0;
+        margin: calc($tamanio-ideal/5) 0;
         &:hover{
-            background-color: $rosado;
+            background-color: $fondo-mobile;
         }
 
         @media (min-width: 992px) { 
@@ -26,10 +27,13 @@ nav{
         font-weight: $negrita;
         margin-left: $tamanio-ideal;
         &:hover{
-            color: $blanco;
+            color: $botones-header;
         }
         &.active{
             color: $verde;
+        }
+        &.show{
+             color: $negro !important;       
         }
         @media (min-width: 992px) { 
             
@@ -37,13 +41,13 @@ nav{
                  
         }
     }
-    .dropdown-item{
-        color: $negro;
-        &:hover{
-            background-color: $celeste; 
-            color: $verde;
-            font-weight: $negrita;
-        }
-    }
+    // .dropdown-item{
+    //     color: $negro;
+    //     &:hover{
+    //         background-color: $celeste; 
+    //         color: $verde;
+    //         font-weight: $negrita;
+    //     }
+    // }
     
 }

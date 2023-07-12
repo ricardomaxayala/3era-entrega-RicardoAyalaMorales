@@ -1,160 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión | Logi</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="icon" href="../img/icon.jpg">
-    <!-- SEO -->
-    <meta name="description" content="Inicia sesión en Logi">
-    <meta name="keywords" content="Iniciar sesión, correo electrónico, Inicia sesión con facebook, Inicia sesión con google, bienvenido a XXXXX">     
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión | Logi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" href="../img/icon.jpg">
+  <!-- SEO -->
+  <meta name="description" content="Inicia sesión en Logi">
+  <meta name="keywords"
+    content="Iniciar sesión, correo electrónico, Inicia sesión con facebook, Inicia sesión con google, bienvenido a XXXXX">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body class="bg-white">
 
-         <header>
-          <nav class="navbar navbar-expand-lg bg-danger sticky-top" data-bs-theme="dark">
-              <div class="container">
-                <a class="navbar-brand" href="../index.html">
-                  <img src="../img/logoo.png" alt="logo">
-                </a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#proyectos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Proyectos
-                      </a>
-                      <ul class="dropdown-menu bg-light">
-                        <li><a class="dropdown-item" href="#">Último proyecto</a></li>
-                        <li><a class="dropdown-item" href="#">Sitio <i>Single Page</i></a>
-                        </li>
-                        <li><a class="dropdown-item" href="#">Sitio <i>Multige Page</i></a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="cursos.html">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="bootcamps.html">Bootcamps</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item bg-primary mx-lg-1 rounded-pill">
-                      <a class="nav-link" href="iniciasesion.html">Iniciar Sesión</a>
-                    </li>
-                    <li class="nav-item bg-warning mx-lg-1 rounded-pill">
-                      <a class="nav-link" href="registrarse.html">Registrarse</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
+  <!-- HEADER -->
 
-
-    <div class="container w-75 bg-success rounded-2 shadow mt-5 mb-5">
-        <div class="row align-items-stretch">
-            <div class="col img-iniciarsesion d-none d-lg-block col-lg-5 col-xl-6">
-
-            </div>
-            <div class="col bg-white p-5">
-                <h1 class="text-center py-4">Bienvenido a este lugar</h1>
-                <form action="#">
-                    <div class="mb-4">
-                        <label for="email" class="form-label">Correo Electrónico:</label>
-                        <input type="email" name="email" class="form-control">
-                    </div>
-                    <div class="mb-4">
-                        <label for="password" class="form-label">Contraseña:</label>
-                        <input type="password" name="password" class="form-control">
-                    </div>
-                    <div class="mb-4 form-check">
-                        <input type="checkbox" name="connected" class="form-check-input">
-                        <label for="connected" class="form-check-label">Manterme conectado</label>
-                    </div>
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                    </div>
-                    <div class="my-3">
-                        <p>No tienes cuenta? 
-                          <a class="text-danger ps-2" href="registrarse.html">Regístrate</a> <br>
-                          <a class="text-warning" href="#">Recuperar contraseña</a>
-                        </p>
-                    </div>
-                </form>
-
-                <!-- LOGIN con redes sociales -->
-                <div class="container w-100 my-3">
-                  <div class="row text-center">
-                      <div class="col-12">Iniciar sesión con:</div>
-                  </div>
-                  <div class="row">
-                      <div class="col">
-                          <button class="btn btn-outline-primary w-100 my-1">
-                              <div class="row align-items-center">
-                                <div class="col-2 d-none d-md-block">
-                                  <img src="../img/Facebook_f_logo_(2019).png" width="32" alt="ícono de facebook">
-                                </div>
-                                <div class="col-10 mx-auto">
-                                  Facebook
-                                </div>
-
-                              </div>
-                          </button>
-                      </div>
-                      <div class="col">
-                        <button class="btn btn-outline-danger w-100 my-1">
-                          <div class="row align-items-center">
-                            <div class="col-2 d-none d-md-block">
-                              <img src="../img/logogoogle2.jpg" width="32" alt="ícono de google">
-                            </div>
-                            <div class="col-10 mx-auto">
-                              Google
-                            </div>
-
-                          </div>
-                      </button>
-                      </div>
-                  </div>
-
-                </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand nav-logo" href="../index.html">
+          <img src="../img/logoo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#proyectos.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Proyectos
+              </a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="#">Último proyecto</a></li>
+                <li><a class="dropdown-item" href="#">Sitio <i>Single Page</i></a>
+                </li>
+                <li><a class="dropdown-item" href="#">Sitio <i>Multige Page</i></a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bootcamps.html">Bootcamps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item bg-info mx-lg-1 rounded-pill">
+              <a class="nav-link" href="iniciasesion.html">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item bg-warning mx-lg-1 rounded-pill">
+              <a class="nav-link" href="registrarse.html">Registrarse</a>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </nav>
+  </header>
 
-    <footer>      
-      <section class="bg-dark p-3">
-          <div class="container">
-              <nav class="d-flex justify-content-evenly align-items-center">
-                  <a href="https://facebook.com" target="_blank" class="icon"><i class="bi bi-facebook fs-1"></i></a>
-                  <a href="https://whatsapp.com" target="_blank" class="icon"><i class="bi bi-whatsapp fs-1"></i></a>
-                  <a href="https://twitter.com" target="_blank" class="icon"><i class="bi bi-twitter fs-1"></i></a>
-                  <a href="https://twitch.com" target="_blank" class="icon"><i class="bi bi-twitch fs-1"></i></a>
-                  <a href="https://linkedin.com" target="_blank" class="icon"><i class="bi bi-linkedin fs-1"></i></a>
-                  <a href="https://github.com" target="_blank" class="icon"><i class="bi bi-github fs-1"></i></a>
-                  <a href="https://youtube.com" target="_blank" class="icon"><i class="bi bi-youtube fs-1"></i></a>
-              </nav>
-              <p class="text-white text-center pt-3">&copy; Ricky 2023. Hecho desde CoderHouse</p>
+  <!-- SECCIÓN Formulario iniciar sesión -->
+  <div class="container w-75 bg-success rounded-2 shadow mt-5 mb-5">
+    <div class="row align-items-stretch">
+      <div class="col img-iniciarsesion d-none d-lg-block col-lg-5 col-xl-6">
+
+      </div>
+      <div class="col bg-white p-5">
+        <h1 class="text-center py-4">Bienvenido a este lugar</h1>
+        <form action="#">
+          <div class="mb-4">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" name="email" class="form-control">
           </div>
-      </section>
-    </footer>
+          <div class="mb-4">
+            <label for="password" class="form-label">Contraseña:</label>
+            <input type="password" name="password" class="form-control">
+          </div>
+          <div class="mb-4 form-check">
+            <input type="checkbox" name="connected" class="form-check-input">
+            <label for="connected" class="form-check-label">Manterme conectado</label>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+          </div>
+          <div class="my-3">
+            <p>No tienes cuenta?
+              <a class="text-danger ps-2" href="registrarse.html">Regístrate</a> <br>
+              <a class="text-warning" href="#">Recuperar contraseña</a>
+            </p>
+          </div>
+        </form>
+
+        <!-- LOGIN con redes sociales -->
+        <div class="container w-100 my-3">
+          <div class="row text-center">
+            <div class="col-12">Iniciar sesión con:</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-outline-primary w-100 my-1">
+                <div class="row align-items-center">
+                  <div class="col-2 d-none d-md-block">
+                    <img src="../img/Facebook_f_logo_(2019).png" width="32" alt="ícono de facebook">
+                  </div>
+                  <div class="col-10 mx-auto">
+                    Facebook
+                  </div>
+
+                </div>
+              </button>
+            </div>
+            <div class="col">
+              <button class="btn btn-outline-danger w-100 my-1">
+                <div class="row align-items-center">
+                  <div class="col-2 d-none d-md-block">
+                    <img src="../img/logogoogle2.jpg" width="32" alt="ícono de google">
+                  </div>
+                  <div class="col-10 mx-auto">
+                    Google
+                  </div>
+
+                </div>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+  <!-- FOOTER -->
+  <footer>
+    <section class="bg-dark p-3">
+      <div class="container">
+        <nav class="d-flex justify-content-evenly align-items-center">
+          <a href="https://facebook.com" target="_blank" class="icon"><i class="bi bi-facebook fs-1"></i></a>
+          <a href="https://whatsapp.com" target="_blank" class="icon"><i class="bi bi-whatsapp fs-1"></i></a>
+          <a href="https://twitter.com" target="_blank" class="icon"><i class="bi bi-twitter fs-1"></i></a>
+          <a href="https://twitch.com" target="_blank" class="icon"><i class="bi bi-twitch fs-1"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="icon"><i class="bi bi-linkedin fs-1"></i></a>
+          <a href="https://github.com" target="_blank" class="icon"><i class="bi bi-github fs-1"></i></a>
+          <a href="https://youtube.com" target="_blank" class="icon"><i class="bi bi-youtube fs-1"></i></a>
+        </nav>
+        <p class="text-white text-center pt-3">&copy; Ricky 2023. Hecho desde CoderHouse</p>
+      </div>
+    </section>
+  </footer>
 
 
-
-
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </body>
 </html>

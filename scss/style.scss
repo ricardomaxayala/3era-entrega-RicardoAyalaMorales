@@ -1,3 +1,8 @@
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
 @import "./abstract/colores";
 @import "./abstract/variables";
 @import "./abstract/maps";
@@ -8,12 +13,27 @@
 @import "./components/iniciarsesion";
 @import "./components/registrarse";
 @import "./components/nosotros";
+@import "./components/bootcamps";
 @import "./components/footer";
 
 
-.carta:hover{
-    @extend %carta;
+
+
+span{
+    font-size: .8rem;
+    color: #6a6f73;
 }
+
+p{
+    font-size: .9rem;
+}
+
+.card-cat{
+    background-color: $color-card;
+}
+
+
+
 
 
 

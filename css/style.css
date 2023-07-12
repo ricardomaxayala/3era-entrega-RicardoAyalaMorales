@@ -1,3 +1,7 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
 nav .navbar-brand img {
   height: 3rem;
   width: auto;
@@ -7,7 +11,7 @@ nav .nav-item {
   margin: 0.2rem 0;
 }
 nav .nav-item:hover {
-  background-color: lightcoral;
+  background-color: #171739;
 }
 @media (min-width: 992px) {
   nav .nav-item:hover {
@@ -21,23 +25,18 @@ nav .nav-link {
   margin-left: 1rem;
 }
 nav .nav-link:hover {
-  color: white;
+  color: #D2419E;
 }
 nav .nav-link.active {
   color: green;
+}
+nav .nav-link.show {
+  color: black !important;
 }
 @media (min-width: 992px) {
   nav .nav-link {
     margin-left: 0;
   }
-}
-nav .dropdown-item {
-  color: black;
-}
-nav .dropdown-item:hover {
-  background-color: lightsteelblue;
-  color: green;
-  font-weight: bold;
 }
 
 .aplicar {
@@ -78,7 +77,20 @@ i {
   color: white;
 }
 
-.carta:hover {
+span {
+  font-size: 0.8rem;
+  color: #6a6f73;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.card-cat {
+  background-color: #d4afeb;
+}
+
+.card-cat:hover {
   transform: scale(1.1);
   transition: all ease-in 0.5s;
 }

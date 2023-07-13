@@ -50,6 +50,14 @@ nav .nav-link.show {
   color: gold;
 }
 
+.testimonios {
+  background-color: #f8f9fa;
+}
+
+.cursos {
+  background-color: white;
+}
+
 .img-iniciarsesion {
   background-image: url(../img/inicia.jpg);
   background-position: center center;
@@ -69,12 +77,21 @@ nav .nav-link.show {
   align-items: center;
 }
 
+.bootcamps {
+  background-color: white;
+}
+
 i {
   font-size: 1rem;
 }
 
 .icon:hover {
   color: white;
+}
+
+.redesSociales {
+  background-color: #212529;
+  padding: 1rem;
 }
 
 span {

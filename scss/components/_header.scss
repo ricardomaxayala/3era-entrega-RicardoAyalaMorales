@@ -1,7 +1,7 @@
 
-
-
 nav{
+    background-color: $color-nav;
+    font-weight: $negrita;
     .navbar-brand{
         img{
             height: $tamanio-img-header;
@@ -9,47 +9,12 @@ nav{
             object-fit: $object-fit;
         }
     }
-    .nav-item{
-        margin: calc($tamanio-ideal/5) 0;
+    .header-link{
+        color: $negro !important;
         &:hover{
-            background-color: $fondo-mobile;
+            color: $blanco !important;
         }
-
-        @media (min-width: 992px) { 
-            &:hover {
-                background-color: $transparente;
-            }       
-        }
-    }
-    .nav-link{
-        color: $negro;
-        font-size: $tamanio-ideal;
-        font-weight: $negrita;
-        margin-left: $tamanio-ideal;
-        &:hover{
-            color: $botones-header;
-        }
-        &.active{
-            color: $verde;
-        }
-        &.show{
-             color: $negro !important;       
-        }
-        @media (min-width: 992px) { 
-            
-                margin-left: 0;
-                 
-        }
-    }
-    // .dropdown-item{
-    //     color: $negro;
-    //     &:hover{
-    //         background-color: $celeste; 
-    //         color: $verde;
-    //         font-weight: $negrita;
-    //     }
-    // }
-    
+    }   
 }
 
 

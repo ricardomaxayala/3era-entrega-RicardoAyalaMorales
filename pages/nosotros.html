@@ -240,24 +240,24 @@
 
   <!-- Sección contáctanos -->
   <section class="py-2">
-    <form class="row g-3 container mx-auto w-60">
-      <h2 class="text-center">Contáctanos:</h2>
+    <h2 class="text-center fw-bold">Contáctanos:</h2>
+    <form class="row g-3 container mx-auto w-60" method="get">
       <div class="col-12">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <label for="inputEmail4" class="form-label" name="email">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" name="email">
       </div>
       <div class="form-floating">
         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-          style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Mensaje:</label>
+          style="height: 100px" name="mensaje"></textarea>
+        <label for="floatingTextarea2" name="mensaje">Mensaje:</label>
       </div>
       <div class="col-md-6">
-        <label for="inputNumber" class="form-label">Teléfono</label>
-        <input type="tel" class="form-control" id="inputNumber">
+        <label for="inputNumber" class="form-label" name="telefono">Teléfono</label>
+        <input type="tel" class="form-control" id="inputNumber" name="telefono">
       </div>
       <div class="col-md-6">
-        <label for="inputState" class="form-label">Country:</label>
-        <select id="inputState" class="form-select">
+        <label for="inputState" class="form-label" name="pais">Country:</label>
+        <select id="inputState" class="form-select" name="pais">
           <option selected>Elige...</option>
           <option>Argentina</option>
           <option>Bolivia</option>
@@ -276,7 +276,7 @@
   <!-- Sección ubicación -->
   <section class="">
     <div class="text-center py-2">
-      <h2 class="py-2">Ubicación:</h2>
+      <h2 class="py-2 fw-bold">Ubicación:</h2>
       <div class="ubicacion">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8518672661235!2d101.68203027590424!3d3.1338147532447853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49c0707981fb%3A0x4a8ca9b691cf345b!2sGoogle%20Malaysia!5e0!3m2!1sen!2spe!4v1688678839262!5m2!1sen!2spe"

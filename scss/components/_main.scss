@@ -2,7 +2,7 @@
 .aplicar{
     color: $negro;
     background-color: $naranja;
-    font-weight: negrita;
+    font-weight: $negrita;
     border-radius: calc($tamanio-ideal/2);
     &:hover{
         background-color: $morado;

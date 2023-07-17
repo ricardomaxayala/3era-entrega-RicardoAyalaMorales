@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background-color: #0dcaf0;
+  background-color: #0ac2e7;
   font-weight: bold;
 }
 nav .navbar-brand img {
@@ -17,11 +17,17 @@ nav .header-link {
 nav .header-link:hover {
   color: white !important;
 }
+nav .iniciasesion {
+  background-color: rgb(213, 85, 104);
+}
+nav .registrate {
+  background-color: rgb(128, 74, 227);
+}
 
 .aplicar {
   color: black;
   background-color: orange;
-  font-weight: negrita;
+  font-weight: bold;
   border-radius: 0.5rem;
 }
 .aplicar:hover {
